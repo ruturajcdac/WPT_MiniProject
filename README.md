@@ -1,1 +1,1 @@
-# WPT_MiniProject
+# mini-project
