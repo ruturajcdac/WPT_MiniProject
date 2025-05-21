@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+.contact-container-split {
+    margin-top: 80px;
+  display: flex;
+  height: 570px;
+  background: linear-gradient(135deg, #f0f2f0, #e0e0e0); 
+  background-image: url(../images/contactbg.jpg);
+  background-size: cover;
+  padding: 30px;
+  
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end; 
+  padding-right: 40px; 
+}
+
+.contact-right h1 {
+    font-family:'Montserrat',sans-serif ;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem; 
+}
+
+.contact-right .lead {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.contact-left {
+    font-family:'Montserrat',sans-serif ;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff; /* Primary blue color for focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.contact-form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.contact-info {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.contact-info h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  font-weight: bold;
+  color: #333;
+}

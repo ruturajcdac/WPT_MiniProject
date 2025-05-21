@@ -1,0 +1,45 @@
+/* src/pages/Dashboard.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem; /* Increased padding for more top spacing */
+  font-family: sans-serif; /* A clean and readable font */
+}
+
+h1 {
+  color: #333; /* Darker heading text */
+  margin-bottom: 2rem; /* Space between heading and buttons */
+  text-align: center; /* Center the heading */
+}
+
+button {
+  padding: 1rem 2rem; /* Comfortable padding for buttons */
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-primary {
+  background-color: #007bff; /* A standard primary blue */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* A standard secondary gray */
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62; /* Darker shade on hover */
+}
+
+.me-2 {
+  margin-right: 1rem; /* Space between the two buttons */
+}

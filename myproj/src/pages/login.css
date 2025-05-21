@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+.main-container {
+    font-family:'Montserrat',sans-serif ;
+  display: flex;
+  height: 570px;
+  background-color: #f8f9fa; 
+  margin-top: 80px; 
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  overflow: hidden; 
+}
+
+.login-video {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.right-container {
+  flex: 1;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 0 10px 10px 0; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.right-container h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.right-container p{
+    text-align: center;
+}
+
+.form-floating {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 1.2rem 0.75rem;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+
+ .form-floating > label {
+  padding: 0.75rem;
+} 
+.invalid-feedback {
+  color: #dc3545; 
+  margin-top: 5px;
+  font-size: 0.875rem;
+}
+
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #007bff;
+  border-color: #007bff;
+  opacity: 0.6;
+}
+
+.btn:disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  cursor: not-allowed;
+}
